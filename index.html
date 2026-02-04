@@ -607,7 +607,7 @@
             const now = new Date();
             const month = now.getMonth() + 1;
             const day = now.getDate();
-            const text = `${currentUser}已於是${month}月${day}日完成作品1號跟讀練習！`;
+            const text = `${currentUser}已於${month}月${day}日完成作品1號跟讀練習！`;
             
             navigator.clipboard.writeText(text).then(() => {
                 document.getElementById("modal-bg").style.display = "block";
@@ -694,3 +694,4 @@
     </script>
 </body>
 </html>
+
